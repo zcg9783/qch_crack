@@ -267,5 +267,20 @@ for i in 1 2; do
     am broadcast -a qch_show_NavigationBar_config -p com.android.systemui
 done
 ```
+### 四.屏蔽更新
+删除com.adups.fota即可  
+
+### 五.关于USB授权提示被遮挡问题
+删除教管壹护眼程序即可正常点击确定，如果根本不弹窗需要修改build.prop的ro.qch.g801.jd为0  
+
+### 六.刷机建议
+## 一.改版Magisk
+使用apk/magisk.apk，自动开adb与授权shell root  
+## 二.安装七彩虹工具箱
+安装apk/qchtoolbox.apk，可以自由切换全面屏手势或者三大金刚键
+
+### 七.展示
+查看video/1.mp4
+
 **对这个平板的研究就先到这里啦，总结一下一下就是，这个七彩虹做的系统简直就是~~一坨狗屎~~**  
 所谓管控系统，原来只是一堆Settings项啊
